@@ -1,4 +1,9 @@
 /* selektor znacznika */
-p{
+p {
     background-color: aqua;
+}
+
+/*selektor id*/
+#drugi-paragraf {
+    background-color: yellow;
 }
