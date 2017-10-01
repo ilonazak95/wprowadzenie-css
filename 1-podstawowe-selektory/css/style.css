@@ -1,9 +1,23 @@
 /* selektor znacznika */
 p {
-    background-color: aqua;
+    background-color: red;
 }
 
 /*selektor id*/
 #drugi-paragraf {
     background-color: yellow;
+}
+
+/*selektor klasy*/
+.akademia {
+    background-color: aquamarine;
+}
+
+/*selektor potomka*/
+#selektor-potomka > p {
+    background-color: gold;
+}
+
+#drugi-potomek ~ p {
+    background-color: lime;
 }
